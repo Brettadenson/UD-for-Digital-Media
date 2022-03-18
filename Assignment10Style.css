@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+h1{
+    font-family: 'League Gothic', serif;
+    text-align: center;
+    color: blue;
+ }
+
+h2 {
+    font-family: 'Open Sans', serif;
+    color: green;
+  }
+  p {
+    color: gray;
+  }
+  
+  ul {
+    border: 5px solid red;
+  }
+  
+  ol {
+    border: 5px solid red;
+  }
+  
+  ol, ul {
+    padding: 10px 50px;
+    border-radius: 10px;
+  }
+  
+  strong {
+    color: orange;
+  }
+  
+  em {
+    color: gray;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+header, footer {
+    border: 2px solid #031627;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 2px solid #031627;
+    border-right: 2px solid #031627;
+}
+
+section, aside {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+aside {
+    flex: 2;
+}
+
+.left-aside {
+    padding-left: 10px;
+}
+
+.right-aside {
+    padding-right: 10px;
+}
+
+section {
+    flex: 3;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid #031627;
+    border-right: 2px solid #031627;
+}
+
+header, footer {
+    text-align: center;
+    flex: 4;
+    padding: 20px;
+}
+
